@@ -2,6 +2,7 @@
 AI Energy Intelligence Platform (HPC Project)
 # Project Overview
 This project presents a High Performance Computing (HPC)-based Parallel Energy Consumption Analyzer designed to efficiently process and analyze large-scale energy datasets. The system focuses on identifying energy usage patterns, detecting peak consumption periods, and predicting future energy trends using machine learning and deep learning techniques.
+
 The platform integrates parallel processing, time-series forecasting, and interactive visualization to improve computational speed and scalability. By leveraging multiprocessing and GPU acceleration, the system significantly reduces execution time compared to traditional sequential approaches.
 Full Project Report
 Refer to the complete project documentation for detailed explanation of methodology, implementation, and results.
