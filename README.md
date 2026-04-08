@@ -4,16 +4,19 @@ AI Energy Intelligence Platform (HPC Project)
 This project presents a High Performance Computing (HPC)-based Parallel Energy Consumption Analyzer designed to efficiently process and analyze large-scale energy datasets. The system focuses on identifying energy usage patterns, detecting peak consumption periods, and predicting future energy trends using machine learning and deep learning techniques.
 
 The platform integrates parallel processing, time-series forecasting, and interactive visualization to improve computational speed and scalability. By leveraging multiprocessing and GPU acceleration, the system significantly reduces execution time compared to traditional sequential approaches.
-Full Project Report
+
+# Full Project Report
 Refer to the complete project documentation for detailed explanation of methodology, implementation, and results.
 
 # Google Colab Notebook
 Run the project directly in Google Colab:
+
 https://colab.research.google.com/drive/1Geaw0FoYHnNrJTie4qAntxvt0R64YlnN?usp=sharing
 
 # Dataset
 The project supports Energy Consumption Dataset:
 https://www.kaggle.com/datasets/robikscube/hourly-energy-consumption
+
 Alternatively, users can upload their own dataset through the interface for real-time analysis.
 
 # Technologies Used
@@ -48,7 +51,7 @@ Alternatively, users can upload their own dataset through the interface for real
 8.Results visualized and returned as downloadable output
 
 # Installation and Setup
-Clone Repository
+# Clone Repository
 git clone https://github.com/saipallavi-hub/Parallel-Energy-Consumption-Analyzer-hpc-project-
 cd Parallel-Energy-Consumption-Analyzer-hpc-project
 
@@ -56,7 +59,7 @@ cd Parallel-Energy-Consumption-Analyzer-hpc-project
 pip install pandas numpy matplotlib seaborn scikit-learn tensorflow gradio
 
 # How to Run
-Option 1: Google Colab (Recommended)
+# Option 1: Google Colab (Recommended)
 * Open the Colab notebook link
 * Upload dataset
 * Run all cells
@@ -64,6 +67,7 @@ Option 1: Google Colab (Recommended)
 
 # Option 2: Local Execution
 python hpc.py
+
 After execution, open the Gradio link displayed in the terminal.
 
 # Output
@@ -84,9 +88,9 @@ The system produces:
 
 # HPC Concepts Applied
 * Parallel processing using multiprocessing
-*Data chunking and distributed computation
+* Data chunking and distributed computation
 * Efficient handling of large-scale datasets
-*Time-series sliding window processing
+* Time-series sliding window processing
 * GPU acceleration (via TensorFlow in Colab)
 
 # Future Enhancements
